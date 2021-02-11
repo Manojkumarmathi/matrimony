@@ -1,0 +1,98 @@
+// .tphoto {
+//     width: 300px;
+//     height: 365px;
+//     overflow: hidden;
+//     margin: 0 auto;
+//     position: relative;
+//     top: 15px;
+//     border-radius: 10px;
+//     -moz-border-radius: 10px;
+//     -o-border-radius: 10px;
+//     -ms-border-radius: 10px;
+//     border: 1px solid #c0c0c0;
+//     padding-bottom: 60px;
+//     background-color: #fff;
+//     box-shadow: 2px 2px 2px #c0c0c0;
+// }
+
+.tname {
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    float: left;
+}
+.tname .age { font-weight: 200; }
+.tinfo { font-family: 'Helvetica', sans-serif; }
+.tinfo .fa-users, .tinfo .fa-book {
+    color: #c0c0c0;
+    float: right;
+    position: relative;
+    font-size: 24px;
+    padding: 12px;
+}
+
+.cards{
+    width: 300px;
+    height: 365px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    padding-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #c0c0c0;
+    &-imgContent{
+        // background-color: lightskyblue;
+    }
+    &-biod{
+        display: flex;
+    }
+    &-name{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &-address{
+        font-size: 15px;
+        font-weight:400;
+    }
+    &-footer{
+        border-top: 1px solid lightgray;
+        justify-content: space-evenly;
+        display: flex;
+    
+        &-yesBtn{
+            background-color: orange;
+            color: white;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+        &-noBtn{
+            border-radius: 10px;
+            border: 1px solid lightgray;
+            color: black;
+            margin-left: 5px;
+            font-size: 25px;
+        }
+        &-shows{
+            font-weight: 300;
+        }
+
+        &-likes{
+            font-weight: 500;
+        }
+
+    }
+
+}
+.content-left{
+    margin-left: 5px;
+}
+.content-top{
+    margin-top: 7px;
+}

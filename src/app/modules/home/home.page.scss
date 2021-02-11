@@ -1,0 +1,229 @@
+.homepage {
+  background-color: rgb(74, 189, 235);
+  height: 100vh;
+
+  &-title {
+    font-weight: 500;
+    color: white;
+    font-size: 17px;
+  }
+
+  &-headline {
+    font-weight: 500;
+    color: white;
+    font-size: 23px;
+  }
+
+  &-scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+
+    &-menu {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      //   padding: 10px;
+      width: 240px;
+      margin: 10px;
+      height: 390px;
+      border-radius: 10px;
+      text-decoration: none;
+      background-color: lightblue;
+
+      &-image {
+        height: 215px;
+        background-color: slateblue;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        &-propic {
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+
+      }
+
+      &-details {
+        background-color: white;
+        color: lightgray;
+        height: 174px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        &-name {
+          color: black;
+          font-weight: 500;
+          font-size: 20px;
+        }
+
+        &-biodata {
+          overflow: hidden;
+          white-space: pre-line;
+          text-align: left;
+          color: black;
+        }
+
+        &-yesBtn {
+          background-color: orange;
+          color: white;
+          border-radius: 15px;
+        }
+
+        &-noBtn {
+          //   background-color: orange;
+          color: black;
+          border-radius: 15px;
+          border: 1px solid lightgray;
+          margin-left: 5px;
+        }
+      }
+    }
+
+  }
+
+  &-footer {
+    background-color: orange;
+    color: white;
+    float: right;
+    margin: 10px;
+  }
+}
+
+.tbg {
+  /* prevents horizontal scroll bar appearing  */
+  overflow-x: hidden;
+}
+
+/************************
+  Tinder Template by Miami
+  ************************/
+.tbg {
+  height: 720px;
+  width: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 1px solid #c0c0c0;
+}
+
+.tbgwrap {
+  padding: 10px;
+}
+
+.theader {
+  height: 65px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.theader i.fa-comments {
+  color: #c0c0c0;
+  font-size: 40px;
+  display: inline-block;
+  float: right;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.theader i.fa-cog {
+  color: #c0c0c0;
+  font-size: 40px;
+  display: inline-block;
+  float: left;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.tlogo {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.tlogo img {
+  width: 100px;
+}
+
+.tno {
+  background-color: #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  left: 25px;
+  border: 10px solid #f0f0f0;
+}
+
+.tno i {
+  color: #ff695b;
+  font-size: 80px;
+  padding: 17px 28px;
+}
+
+.ti {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  left: 12px;
+  top: 30px;
+  border: 10px solid #f0f0f0;
+}
+
+.ti .fa-info {
+  font-size: 23px;
+  padding: 15px 20px;
+  color: #398beb;
+}
+
+.tyes {
+  background-color: #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  top: 48px;
+  left: 0px;
+  border: 10px solid #f0f0f0;
+}
+
+.tyes i {
+  color: #5de19c;
+  font-size: 60px;
+  padding: 35px 30px;
+}
+
+.credit {
+  width: 400px;
+  height: auto;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 2px 0px;
+}
+
+.credit a {
+  font-size: 7px;
+  letter-spacing: 5px;
+  color: #c0c0c0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+}
